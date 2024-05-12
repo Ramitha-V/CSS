@@ -1,0 +1,25 @@
+/*Element Selector*/
+html{
+    background:pink;
+}
+
+h2{
+    color:blueviolet;
+}
+/*Class Selector*/
+.red-text {
+    color:red;
+
+}
+/*ID Selector*/
+#main{
+    color:aquamarine;
+}
+/*Attribute Selector*/
+p[draggable]{ /* p here denotes the paragraph element and then draggable is the attribute*/
+    color:red;
+}
+/*Universal Selector*/
+*{
+    color:brown;
+}
