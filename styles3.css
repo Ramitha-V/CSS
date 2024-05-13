@@ -1,0 +1,18 @@
+li{
+    color:red;
+    color:blue ;
+}
+
+li{
+    color:green;
+}
+.first-class{
+    color:red;
+}
+li[draggable]{
+    color:purple !important;
+}
+
+#first-id{
+    color:orange;
+}

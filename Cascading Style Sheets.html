@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles3.css" />
+    <style>
+        li{
+            color:pink ;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="first-id" class="first-class" draggable=true>Hello World!!</li>
+        <li style="color:yellow">This is Ramitha!!</li>
+    </ul>
+    
+</body>
+</html>
+
+<!--it goes step by step
+(i) external CSS
+(ii)internal CSS
+(iii) inline CSS-->
+
+<!--
+    Four main categories:
+    (i) Position 
+        - if the same property has two values assigned then both the values get applied, but simply 
+        the second property replaces the first one and hence that is visible
+        - basically however lower, that value gets used even if it is in another selector.
+        - lower the more important it is
+    (ii) Specificity
+        - how specific a selector is in terms of the element it is applied to
+        - level of specificity from least to most:
+            - element selector
+            - class selector -> since multiple elements can have the same class
+            - attribute selector 
+            - id selector -> since it is unique to every element
+    (iii) Type
+        - type of CSS
+        - most to least relevant
+            - Inline
+            - Internal
+            - External
+    (iv) Importance
+        - we add !important keyword
+        - when we add this, this ensures that this is the most important rule relevant to this.
+
+-->
